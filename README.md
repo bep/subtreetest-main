@@ -10,6 +10,16 @@ git remote add sub git@github.com:bep/subtreetest-sub.git
 git subtree add --prefix=sub/ sub master --squash
 ```
 
-## Merge sub tree, pull --squash
+## Pull and squash changes from sub
 
 git subtree pull --prefix=sub/ sub master --squash
+
+
+## Push changes to sub
+
+git subtree push --prefix=sub/ sub master
+
+
+## Notes
+
+* https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree
