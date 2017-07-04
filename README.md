@@ -18,6 +18,7 @@ git subtree pull --prefix=sub/ sub master --squash
 ## Push changes to sub
 
 git subtree push --prefix=sub/ sub master
+git subtree push --prefix=sub/ sub-local dev
 
 
 ## Notes
