@@ -20,6 +20,11 @@ git subtree pull --prefix=sub/ sub master --squash
 git subtree push --prefix=sub/ sub master
 git subtree push --prefix=sub/ sub-local dev
 
+## Handle merge conflicts
+
+git checkout --theirs sub/somefile
+git checkout --ours sub/somefile
+
 
 ## Notes
 
